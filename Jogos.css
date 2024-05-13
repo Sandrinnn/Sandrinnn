@@ -1,0 +1,28 @@
+.Jogos {
+   background-color: white;
+   width: 260px;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 2px;
+   box-shadow: 9px 7px 5px rgb(148, 148, 148);
+}
+.Jogos:hover {
+   background-color: rgb(84, 255, 62);
+   cursor: pointer;
+}
+.Jogos h2 {
+   color: #e20f00;
+   text-align: center;
+   margin-bottom: 5px;
+}
+.Jogos img {
+   width: 260px;
+   height: 180px;
+   border-radius: 100px;
+}
+#area-jogos {
+   width: 260;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+}
