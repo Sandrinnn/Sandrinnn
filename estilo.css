@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+body {
+  font-family:'Mouse Memoirs' , sans-serif;
+  background-color: rgb(206, 214, 219);
+}
+#area-cabecalho {
+  text-align: center;
+  background-color: #c4170c;
+  padding: 15px;
+}
+#area-cabecalho h1 {
+   font-size: 52px;
+}
+#area-logo, #area-menu {
+  padding: 10px;
+}
+#area-menu a {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#area-menu a:hover {
+    background-color: white;
+    color: #c4170c;
+    border-radius: 2px;
+}
+.post {
+  border: 5px solid gray;
+  border-radius: 5px;
+  margin: 20px 50px;
+  padding: 10px;
+  background-color: white;
+}
+.post h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: tahoma;
+}
+.post p {
+   text-align: justify;
+   font-family: tahoma;
+}
+#area-rodape {
+  clear: both;
+  text-align: center;
+  background-color: #c4170c;
+  padding: 15px;
+  color: white;
+}
